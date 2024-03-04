@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --origin-color: #dc3444;
+}
+html {
+  overflow-x: hidden;
+}
+/* Navbar Start */
+#navbar {
+  padding: 0 9% 0;
+}
+#logo img {
+  width: 190px;
+  margin-top: 3px;
+}
+.nav-item .nav-link {
+  color: black;
+  font-weight: 550;
+  transition: all 0.4s ease;
+}
+.nav-item .nav-link:hover {
+  color: var(--origin-color);
+}
+/* Home */
+#home {
+  padding: 0 11% 0;
+}
+.home .home-content .home-text h3 {
+  font-size: 40px;
+}
+.home .home-content .home-text h3 span {
+  color: var(--origin-color);
+}
+.home .home-content .img {
+  padding: 1px;
+}
+/* Services*/
+#services {
+  padding: 0 9% 0;
+}
+#services .row div:nth-child(1) {
+  padding-top: 30px;
+}
+
+/* Menu */
+#menu {
+  padding: 0 9% 0;
+  margin-top: 200px;
+  margin-bottom: 75px;
+ 
+}
+#menu div.row .colh1 {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+#menu div.row .colh1:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transform: scale(1.015);
+}
+div.containera{
+  
+  margin-right: 9%;
+  margin-left: 9%;
+}
+/* Our Menu*/
+#our-menu {
+  padding: 0 9% 0;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+#our-menu div.row .colh1 {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+#our-menu div.row .colh1:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  transform: scale(1.015);
+}
+
+/* Order */
+#order {
+  padding: 0 9% 0;
+  margin-bottom: 150px;
+}
+#order textarea {
+  resize: none;
+}
+
+/* Say*/
+#say {
+  padding: 0 9% 0;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+#say .card img {
+  border: 1px solid var(--origin-color);
+}
+/* contact*/
+#contact {
+  padding: 0 9% 0;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+#contact .row .col1 {
+  padding: 10px;
+}
+#contact textarea {
+  resize: none;
+}
+/*Footer*/
+#footer {
+    padding: 0 9% 0;
+    margin-top: 200px;
+}
+
+#footer p a:hover {
+    background: var(--origin-color);
+    color: white;
+    
+}
+#footer p a:hover i {
+    
+    color: white;
+    
+}
+
